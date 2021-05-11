@@ -3,7 +3,7 @@ function [t,x] = prz(bits, bitrate)
 %   [T, X] = PRZ(BITS, BITRATE) encodes BITS array using polar RZ
 %   code with given BITRATE. Outputs are time T and encoded signal
 %   values X.
-% Copyright (c) 2013 Yuriy Skalko <yuriy.skalko@gmail.com>
+% Copyright (c) 2021 Ahmed Abdelazeem <ahmedabdelazeem373@gmail.com>
 T = length(bits)/bitrate; % full time of bit sequence
 n = 200;
 N = n*length(bits);
