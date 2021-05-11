@@ -3,7 +3,7 @@ function [t,x] = manchester(bits, bitrate)
 %   [T, X] = MANCHESTER(BITS, BITRATE) encodes BITS array using Manchester
 %   code with given BITRATE. Outputs are time T and encoded signal
 %   values X.
-% Copyright (c) 2013 Ahmed Abdelazeem <ahmedabdelazeem373@gmail.com>
+% Copyright (c) 2021 Ahmed Abdelazeem <ahmedabdelazeem373@gmail.com>
 T = length(bits)/bitrate; % full time of bit sequence
 n = 200;
 N = n*length(bits);
